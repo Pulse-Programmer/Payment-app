@@ -82,7 +82,7 @@ function Navbar() {
             </svg>
             <span className="badge badge-xs badge-primary indicator-item"></span>
             {isHovered && (
-              <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-gray-700 text-white px-3 py-1 rounded shadow-lg">
+              <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 bg-gray-700 text-white px-3 py-1 rounded shadow-lg font-sans">
                 Notifications
               </div>
             )}
